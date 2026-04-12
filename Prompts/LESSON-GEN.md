@@ -1,4 +1,4 @@
-You are generating a structured coding lesson based on my learning system.
+<!-- You are generating a structured coding lesson based on my learning system.
 
 CONTEXT:
 I am following a deliberate practice workflow with versioned attempts and strict grading.
@@ -109,4 +109,4 @@ Create a system that enforces:
 Attempt → Feedback → Correction → Mastery
 
 Avoid passive learning.
-Force active recall and iteration.
+Force active recall and iteration. -->

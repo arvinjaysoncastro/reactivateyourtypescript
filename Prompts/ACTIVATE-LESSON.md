@@ -1,4 +1,4 @@
-Activate this lesson in execution mode.
+<!-- Activate this lesson in execution mode.
 
 Goal:
 - Do not explain everything upfront
@@ -27,4 +27,4 @@ End condition:
 ___
 
 
-Activate this lesson markdown into a fully expanded teaching note using the style of the already-activated lessons in this repo. Only update the lesson markdown file.
+Activate this lesson markdown into a fully expanded teaching note using the style of the already-activated lessons in this repo. Only update the lesson markdown file. -->

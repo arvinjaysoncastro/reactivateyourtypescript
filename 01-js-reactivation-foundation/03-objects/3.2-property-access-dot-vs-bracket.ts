@@ -1,14 +1,14 @@
 /*
-Lesson: 3.1 Object Literals
+Lesson: 3.2 Property Access Dot vs Bracket
 Purpose: Base exercise file
 
 Rules for this file:
 - Keep this file unedited as the master template.
 - Copy it when you want to answer the exercise.
 - Your answer files can be named like:
-  - 3.1-object-literals-v1.ts
-  - 3.1-object-literals-v2.ts
-  - 3.1-object-literals-v3.ts
+  - 3.2-property-access-dot-vs-bracket-v1.ts
+  - 3.2-property-access-dot-vs-bracket-v2.ts
+  - 3.2-property-access-dot-vs-bracket-v3.ts
 - Assessment will happen on the v files, not on this base file.
 */
 
@@ -18,11 +18,11 @@ export {};
 // PART 1: WRITE WHAT YOU UNDERSTAND
 // ==================================================
 
-// In 1-2 sentences, what is an object literal?
+// In 1-2 sentences, what is the difference between dot notation and bracket notation?
 
-// When should you use one object instead of several separate variables?
+// When does dot notation work best?
 
-// How do you read or update one property on an object?
+// When is bracket notation required?
 
 // ==================================================
 // PART 2: DRILL 1
@@ -39,31 +39,30 @@ export {};
 // PART 3: DRILL 2
 // ==================================================
 
-// Create an object called `student`.
+// Create an object called `book`.
 // It should have:
-// - name
-// - level
-// - active
+// - title
+// - pages
 //
 // Then:
-// 1. print `student.level`
-// 2. change `active`
-// 3. print the full object
+// 1. print `book["title"]`
+// 2. print `book.pages`
 
 // ==================================================
 // PART 4: DRILL 3
 // ==================================================
 
-// Create an object called `order` for a real-world example.
+// Create an object called `settings`.
 // It should have:
-// - id
-// - item
-// - paid
+// - theme
+// - language
+// - mode
 //
 // Then:
-// 1. print one property with dot notation
-// 2. update `paid`
-// 3. print the final object
+// 1. store one property name in a variable called `key`
+// 2. read that property with bracket notation
+// 3. read a different property with dot notation
+// 4. print both results
 
 // ==================================================
 // PART 5: DRILL 4
@@ -71,23 +70,22 @@ export {};
 
 // Write short comment answers:
 //
-// 1. Why is an object useful when values belong to one thing?
-
-// 2. What does dot notation help you do?
+// 1. Why does `obj.key` not use the variable value inside `key`?
+// 2. Why is bracket notation useful for dynamic key access?
 
 // ==================================================
 // PART 6: FINAL TASK
 // ==================================================
 
-// Create a `userProfile` object for a small app.
+// Create an object called `user`.
 //
 // Requirements:
-// 1. Include at least 4 properties.
-// 2. Use clear property names.
-// 3. Print one property.
-// 4. Update one property.
-// 5. Print the final object.
-// 6. Add one short comment explaining what the object represents.
+// 1. Include at least 3 properties.
+// 2. Print one fixed property with dot notation.
+// 3. Store one property name in a variable called `selectedKey`.
+// 4. Print that property using bracket notation.
+// 5. Print both results.
+// 6. Add one short comment explaining why bracket notation was needed.
 
 // ==================================================
 // PART 7: SELF-CHECK
@@ -95,10 +93,10 @@ export {};
 
 // Answer these in comments:
 //
-// 1. What symbol is used between a property name and value in an object literal?
-// 2. How do you read `user.name`?
-// 3. How do you change one property on an existing object?
-// 4. Why is an object better than scattered variables for related data?
+// 1. When should you use dot notation?
+// 2. When must you use bracket notation?
+// 3. What does `obj[key]` use: the literal word `key` or the variable value?
+// 4. Why can `obj.key` give the wrong result in dynamic access?
 
 // ==================================================
 // PART 8: MEETING PRACTICE
@@ -106,5 +104,5 @@ export {};
 
 // Say this out loud in your own words:
 //
-// "An object literal lets me group related data into one value with named properties.
-// I can read and update those properties clearly with dot notation."
+// "Dot notation is best for fixed property names.
+// Bracket notation is required when the property name is dynamic."

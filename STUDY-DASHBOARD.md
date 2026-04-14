@@ -29,7 +29,7 @@ Use it when you want to jump by phase, by topic, or by exact lesson file.
 - [4.4 Reduce (Combine)](01-js-reactivation-foundation/04-arrays/4.4-reduce-combine.md)
 - [5.1 Function Scope](01-js-reactivation-foundation/05-closures/5.1-function-scope.md)
 - [5.2 Inner Function Memory](01-js-reactivation-foundation/05-closures/5.2-inner-function-memory.md)
-- [5.3 Counter Pattern](01-js-reactivation-foundation/05-closures/5.3-counter-pattern.md)
+- [5.3 Counter Pattern](01-js-reactivation-foundation/05-closures/5.3-counter-pattern.md)o
 - [6.1 Promise Basics](01-js-reactivation-foundation/06-async/6.1-promise-basics.md)
 - [6.2 Async Await](01-js-reactivation-foundation/06-async/6.2-async-await.md)
 - [6.3 Chaining](01-js-reactivation-foundation/06-async/6.3-chaining.md)
